@@ -1,0 +1,71 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200&family=Roboto+Condensed&display=swap');
+
+:root{
+    /*__varaiable name__*/
+    --red:red;
+    --white:white;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #000814;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.btn-cstm{
+    background-color: #ef233c;
+}
+
+.text-danger{
+    color: #ef233c;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: red;
+}
+
+
+.h-5{
+    min-height: 450px;
+}
+
+.profile{
+    width: 50%;
+    margin: 20px;
+    filter: drop-shadow(10px 10px 70px white);
+}
+
+.aboutme{
+    min-height: 600px;
+}
+
+.card img{
+    height: 300px;
+
+}
+
+.title{
+    color: #dc3545;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth
+}
+
+.icons i{
+    margin-left: 10px;
+    color:var(--red);
+}
